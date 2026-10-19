@@ -55,4 +55,4 @@ function UserPage() {
   )
 }
 
-export default App
+export {UserPage}
