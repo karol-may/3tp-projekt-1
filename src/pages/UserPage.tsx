@@ -1,4 +1,4 @@
-function App() {
+function UserPage() {
 
   type UserType = {
       id: number;
@@ -40,6 +40,16 @@ function App() {
             </tr>
           )}
         </tbody>
+        <tfoot>
+          <tr>
+            <td colSpan={4}>
+              Ilość użytkowników: {users.length}
+            </td>
+            <td colSpan={1} className="d-grid d-block">
+              <button className="btn btn-sm btn-success btn-block"><i className="bi bi-person-fill-add"></i></button>
+            </td>
+          </tr>
+        </tfoot>
       </table>
     </div>
   )
