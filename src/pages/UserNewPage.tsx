@@ -1,0 +1,1 @@
+export const UserNewPage = () => "User New Page"

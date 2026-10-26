@@ -14,7 +14,6 @@ function UserPage() {
 
   return (
     <div className="container mt-2">
-      Strona główna
       <table className="table table-striped table-bordered">
         <thead>
           <tr>

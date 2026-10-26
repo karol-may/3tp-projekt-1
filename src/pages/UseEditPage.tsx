@@ -1,0 +1,1 @@
+export const UserEditPage = () => "User Edit Page"
